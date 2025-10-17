@@ -15,11 +15,13 @@ app.get('/', async (req, res) => {
     let respone = await fetch(url);
     let data = await respone.json();
     let i = Math.floor(Math.random()*50);
-    let img =data.hits[i].webFormatURL;
-    console.log(data)
+    let img = data.hits[i].webformatURL;
+    console.log(img)
     res.render('home.ejs', {img});
 });
-
+app.get('/NASA_POD',(req, res) => {
+    res.render('nasaPod.ejs');
+});
 //planet route
 app.get('/planent',(req, res) => {
     let planent_Name = req.query.planentName;
