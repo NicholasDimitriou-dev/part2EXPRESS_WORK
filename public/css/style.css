@@ -1,3 +1,32 @@
 /* body{
     text-align: center;
 } */
+#info{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 5px;
+    padding: 5px;
+}
+/*5*/
+h1{
+    align-items: center;
+    color: aqua;
+}
+/* 7 */
+h2{
+    color: green;
+}
+/* 8 */
+#text{
+    color: green;
+}
+/* 9 */
+footer{
+    color: green;
+}
+/* 10 */
+body{
+    background-color: aqua;
+}
+/* 11 */
